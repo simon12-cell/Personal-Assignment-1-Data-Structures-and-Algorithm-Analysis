@@ -31,14 +31,15 @@ public class Main {
 
         for(int i = 0; i < daftar.length; i++){
 
-            if(daftar[i].getNim().equals(nimCari)){
+    if(daftar[i].getNim().equals(nimCari)){
 
-                daftar[i].updateIpk(ipkBaru);
+        daftar[i].setIpk(ipkBaru); // menggunakan setter
 
-                System.out.println("\nData berhasil diperbarui!\n");
-                System.out.println("=== Data Mahasiswa ===\n");
+        System.out.println("\nData berhasil diperbarui!\n");
 
-                daftar[i].tampilkanInfo();
+        System.out.println("=== Data Mahasiswa ===\n");
+
+        daftar[i].tampilkanInfo();
             }
         }
 
