@@ -42,7 +42,6 @@ public class Mahasiswa {
         }
     }
 
-    // tampilkan data
     public void tampilkanInfo(){
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
@@ -51,3 +50,4 @@ public class Mahasiswa {
         System.out.println("Status: " + cekKelulusan());
     }
 }
+
