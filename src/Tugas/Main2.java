@@ -32,7 +32,7 @@ public class Main {
         for(int i = 0; i < daftar.length; i++){
 
     if(daftar[i].getNim().equals(nimCari)){
-        daftar[i].setIpk(ipkBaru); // menggunakan setter
+        daftar[i].setIpk(ipkBaru); 
         System.out.println("\nData berhasil diperbarui!\n");
         System.out.println("=== Data Mahasiswa ===\n");
         daftar[i].tampilkanInfo();
