@@ -5,7 +5,7 @@ public class Mahasiswa {
     String jurusan;
     double ipk;
 
-    // Constructor untuk mengisi data mahasiswa
+    // Constructor 
     public Mahasiswa(String nama, String nim, String jurusan, double ipk) {
         this.nama = nama;
         this.nim = nim;
@@ -13,7 +13,7 @@ public class Mahasiswa {
         this.ipk = ipk;
     }
 
-    // Method untuk menampilkan informasi mahasiswa
+    // Method 
     public void tampilkanInfo() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
