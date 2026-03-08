@@ -22,7 +22,7 @@ public class Main {
             System.out.println();
         }
 
-        // input update IPK
+        // input update ipk
         System.out.print("Masukkan NIM mahasiswa yang ingin diupdate: ");
         String nimCari = input.nextLine();
 
