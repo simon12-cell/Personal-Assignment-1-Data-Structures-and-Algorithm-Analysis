@@ -22,7 +22,7 @@ public class Mahasiswa {
         }
     }
 
-    // method menentukan predikat
+    // method menentukan predikat akademik mahasiswa berdasarkan nilai ipk
     public String hitungPredikat(){
 
         if(ipk >= 3.75){
@@ -39,7 +39,6 @@ public class Mahasiswa {
         }
     }
 
-    // method menampilkan data mahasiswa
     public void tampilkanInfo(){
 
         System.out.println("Nama: " + nama);
